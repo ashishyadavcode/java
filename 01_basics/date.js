@@ -17,4 +17,4 @@ let newdate = new Date(2023 ,0, 15); // here 0 means january
 console.log(newdate.toDateString());
 
 
-console.log(myDate.getMonth());  // 7 (july)
+console.log(myDate.getMonth() + 1);  // 8 (august)
