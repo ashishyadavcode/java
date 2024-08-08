@@ -5,14 +5,14 @@ const balance = new Number(100)
 // console.log(balance);
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+console.log(balance.toFixed(2));   //100.00 (returns two zero after point)
 
 const otherNumber = 123.8966
 
-// console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4));
 
-const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+const hundreds = 10000000000000
+console.log(hundreds.toLocaleString('en-IN')); //1,00,00,00,00,00,000 (adds commas (,) two read esaily)
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
